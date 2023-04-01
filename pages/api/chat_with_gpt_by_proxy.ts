@@ -34,7 +34,7 @@ export default async function handler(
 
         try {
             const proxyRes = await fetch(
-                `https://api.openai.com/v1/chat/completions`,
+                `https://mybot.mocrew.com/v1/chat/completions`,
                 options
             );
             if (!proxyRes.body) {
